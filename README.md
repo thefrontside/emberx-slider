@@ -7,7 +7,7 @@ proceeds in discrete step values. So, for example, to indicate a
 percentage of saturation in an image, where the smallest change in
 saturation is 1%, you might specify your slider control like:
 
-```hbs
+```handlebars
 {{x-slider min=0 max=100 step=1 value=saturationPercentage}}
 ```
 
