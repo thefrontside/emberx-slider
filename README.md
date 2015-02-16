@@ -21,7 +21,9 @@ default use-case is optimized for representing percentages stepped by
 1%. There fore the proceeding example could have been written simply
 as:
 
+```handlebars
 {{x-slider value=saturationPercenage}}
+```
 
 ## EmberX
 
