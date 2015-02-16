@@ -23,8 +23,8 @@ as:
 
 ## EmberX
 
-emberx-slider is part of the "missing components of ember" "collectively
-known as "emberx". See also:
+emberx-slider is part of the "missing components of ember" collectively
+known as emberx. See also:
 
 * [emberx-select](http://chillestmonkey.com)
 
