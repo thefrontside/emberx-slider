@@ -1,7 +1,7 @@
 {
   "name": "emberx-slider",
-  "version": "1.0.0",
-  "description": "An Slider component based on an range input.",
+  "version": "1.0.1",
+  "description": "A Slider component based on the native html5 range input",
   "directories": {
     "doc": "doc",
     "test": "tests"
