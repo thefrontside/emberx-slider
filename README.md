@@ -1,5 +1,7 @@
 # emberx-slider
 
+[![Build Status](https://travis-ci.org/thefrontside/emberx-slider.svg)](https://travis-ci.org/thefrontside/emberx-slider)
+
 A Slider component based on the native html5 range input.
 
 The component itself takes on a number value between two bounds, that
