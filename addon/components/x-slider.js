@@ -69,5 +69,15 @@ export default Ember.Component.extend(PropertyBindings, {
    */
   input: function() {
     this.set('value', Number(this.get('element.value')).valueOf());
+  },
+
+  /**
+   * Make sure that the element.value is set as soon as the element
+   * becomes available.
+   *
+   * @override
+   */
+  didInsertElement: function() {
+    this.set('element.value', this.get('value'));
   }
 });

@@ -8,15 +8,20 @@ import {
 } from 'ember-mocha';
 import { describe, beforeEach } from '../../test-helper';
 
-describeComponent.only('x-slider', 'XSliderComponent', function() {
+describeComponent('x-slider', 'XSliderComponent', function() {
   var slider = null;
   beforeEach(function() {
-    slider = this.subject();
+    slider = this.subject({
+      value: 5
+    });
     this.render();
   });
 
   it("renders", function() {
     expect(slider).to.be.ok();
+  });
+  it("sets the slider to its initial value", function() {
+    expect(slider.get('element.value')).to.equal('5');
   });
 
   describe("setting the dom value on an input event", function() {
