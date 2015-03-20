@@ -1,7 +1,8 @@
 # emberx-slider
 
-[![Build Status](https://travis-ci.org/thefrontside/emberx-slider.svg)](https://travis-ci.org/thefrontside/emberx-slider)
+[![npm version](https://badge.fury.io/js/emberx-slider.svg)](http://badge.fury.io/js/emberx-slider)
 [![Ember Observer Score](http://emberobserver.com/badges/emberx-slider.svg)](http://emberobserver.com/addons/emberx-slider)
+[![Build Status](https://travis-ci.org/thefrontside/emberx-slider.svg)](https://travis-ci.org/thefrontside/emberx-slider)
 
 A Slider component based on the native html5 range input.
 
