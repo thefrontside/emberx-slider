@@ -38,7 +38,7 @@ known as emberx. See also:
 
 ## Installation
 
-ember install:addon emberx-slider
+ember install emberx-slider
 
 ## Running Tests
 
