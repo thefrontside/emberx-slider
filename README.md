@@ -31,10 +31,12 @@ as:
 
 ## EmberX
 
-emberx-slider is part of the "missing components of ember" collectively
-known as emberx. See also:
+emberx-select is part of the "missing components of ember" collectively
+known as emberx:
 
 * [emberx-select](https://github.com/thefrontside/emberx-select)
+* [emberx-slider](https://github.com/thefrontside/emberx-slider)
+* [emberx-file-input](https://github.com/thefrontside/emberx-file-input)
 
 ## Installation
 
