@@ -18,7 +18,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "ember-binding-macros": "~0.2.2"
+    "ember-binding-macros": "~0.3.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
