@@ -18,7 +18,7 @@ export default Ember.Component.extend(PropertyBindings, {
   tagName: ['input'],
   classNames: ['x-slider'],
   propertyBindings: ['value > element.value'],
-  attributeBindings: ['min', 'max', 'step', 'type', 'name'],
+  attributeBindings: ['min', 'max', 'step', 'type', 'name', 'list'],
 
   /**
    * The minimum value that this component's `value` property may
