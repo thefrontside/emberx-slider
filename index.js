@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'emberx-slider'
+  name: 'emberx-range-input'
 };

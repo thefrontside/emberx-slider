@@ -4,30 +4,30 @@ import { describeComponent, it } from 'ember-mocha';
 import { describe, beforeEach } from 'mocha';
 import hbs from 'htmlbars-inline-precompile';
 
-describeComponent('x-slider', 'Integration: XSliderComponent', { integration: true }, function() {
+describeComponent('x-range-input', 'Integration: XRangeInputComponent', { integration: true }, function() {
   it('renders', function() {
-    this.render(hbs`{{x-slider min=0 max=100 step=1 value=number}}`);
+    this.render(hbs`{{x-range-input min=0 max=100 step=1 value=number}}`);
     expect(this.$()).to.have.length(1);
   });
 
   describe("setting an intial vaule", function () {
     beforeEach(function() {
       this.set('number', 5);
-      this.render(hbs`{{x-slider min=0 max=100 step=1 value=number}}`);
+      this.render(hbs`{{x-range-input min=0 max=100 step=1 value=number}}`);
     });
 
     it("sets the intial value", function() {
-      expect(this.$('.x-slider').val()).to.equal('5');
+      expect(this.$('.x-range-input').val()).to.equal('5');
     });
 
     describe("setting the dom value", function () {
       beforeEach(function() {
         this.set('number', 10);
-        this.render(hbs`{{x-slider min=0 max=100 step=1 value=number}}`);
+        this.render(hbs`{{x-range-input min=0 max=100 step=1 value=number}}`);
       });
 
       it("updates the value", function() {
-        expect(this.$('.x-slider').val()).to.equal('10');
+        expect(this.$('.x-range-input').val()).to.equal('10');
       });
     });
   });
@@ -42,27 +42,27 @@ describeComponent('x-slider', 'Integration: XSliderComponent', { integration: tr
         name: "my-slider",
         list: "my-list"
       });
-      this.render(hbs`{{x-slider min=min max=max step=step name=name value=value list=list}}`);
+      this.render(hbs`{{x-range-input min=min max=max step=step name=name value=value list=list}}`);
     });
 
     it("binds the min attribute properly", function() {
-      expect(this.$('.x-slider').prop('min')).to.equal('5');
+      expect(this.$('.x-range-input').prop('min')).to.equal('5');
     });
 
     it("binds the max attribute properly", function() {
-      expect(this.$('.x-slider').prop('max')).to.equal('20');
+      expect(this.$('.x-range-input').prop('max')).to.equal('20');
     });
 
     it("binds the value attribute properly", function() {
-      expect(this.$('.x-slider').prop('value')).to.equal('10');
+      expect(this.$('.x-range-input').prop('value')).to.equal('10');
     });
 
     it("binds the name attribute properly", function() {
-      expect(this.$('.x-slider').prop('name')).to.equal('my-slider');
+      expect(this.$('.x-range-input').prop('name')).to.equal('my-slider');
     });
 
     it("binds the list attribute properly", function() {
-      expect(this.$('.x-slider').attr('list')).to.equal('my-list');
+      expect(this.$('.x-range-input').attr('list')).to.equal('my-list');
     });
 
   });

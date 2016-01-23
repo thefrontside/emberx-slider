@@ -1,4 +1,4 @@
-# emberx-slider
+# emberx-range-input
 
 [![npm version](https://badge.fury.io/js/emberx-slider.svg)](http://badge.fury.io/js/emberx-slider)
 [![Ember Observer Score](http://emberobserver.com/badges/emberx-slider.svg)](http://emberobserver.com/addons/emberx-slider)
@@ -12,7 +12,7 @@ percentage of saturation in an image, where the smallest change in
 saturation is 1%, you might specify your slider control like:
 
 ```handlebars
-{{x-slider min=0 max=100 step=1 value=saturationPercentage}}
+{{x-range-input min=0 max=100 step=1 value=saturationPercentage}}
 ```
 
 The `value` property is fully reactive, and is ideal for real-time
@@ -26,12 +26,12 @@ default use-case is optimized for representing percentages stepped by
 as:
 
 ```handlebars
-{{x-slider value=saturationPercenage}}
+{{x-range-inpitut value=saturationPercenage}}
 ```
 
 ## EmberX
 
-emberx-select is part of the "missing components of ember" collectively
+emberx-range-input is part of the "missing components of ember" collectively
 known as emberx:
 
 * [emberx-select](https://github.com/thefrontside/emberx-select)
@@ -40,7 +40,7 @@ known as emberx:
 
 ## Installation
 
-ember install emberx-slider
+ember install emberx-range-input
 
 ## Running Tests
 
