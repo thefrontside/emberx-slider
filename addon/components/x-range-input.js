@@ -9,14 +9,14 @@ import PropertyBindings from 'ember-binding-macros/mixins/property-bindings';
  * For example:
  *
  *
- *   {{x-slider min=0 max=100 step=1 value=someNumber}}
+ *   {{x-range-input min=0 max=100 step=1 value=someNumber}}
  *
- * @class XSliderComponent
+ * @class XRangeInputComponent
  */
 export default Ember.Component.extend(PropertyBindings, {
   type: "range",
   tagName: ['input'],
-  classNames: ['x-slider'],
+  classNames: ['x-range-input'],
   propertyBindings: ['value > element.value'],
   attributeBindings: ['min', 'max', 'step', 'type', 'name', 'list'],
 
