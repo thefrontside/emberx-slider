@@ -26,7 +26,7 @@ default use-case is optimized for representing percentages stepped by
 as:
 
 ```handlebars
-{{x-ranege-inpitut value=saturationPercenage}}
+{{x-range-inpitut value=saturationPercenage}}
 ```
 
 ## EmberX
