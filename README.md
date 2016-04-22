@@ -1,3 +1,9 @@
+# Warning: this project as been deprecated
+
+If you're on Ember 2.x we recommend using
+[emberx-range-input](https://github.com/thefrontside/emberx-range-input),
+otherwise you can continue to use this addon.
+
 # emberx-slider
 
 [![npm version](https://badge.fury.io/js/emberx-slider.svg)](http://badge.fury.io/js/emberx-slider)
